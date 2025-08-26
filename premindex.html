@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prem-Sim</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #1f2833, #0f2027);
+      color: #ddd;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+    }
+    header {
+      padding: 60px 20px 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    .tagline {
+      font-size: 1.2em;
+      color: #bbb;
+      margin-top: 10px;
+    }
+    .buttons {
+      margin-top: 50px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 16px 36px;
+      margin: 10px;
+      font-size: 1.1em;
+      font-weight: bold;
+      color: #fff;
+      background: #3D195B; /* Premier League purple */
+      border: none;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #5E2A7A;
+    }
+    footer {
+      margin-top: auto;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+    footer a { color: #3D195B; text-decoration: none; }
+    @media (max-width: 600px) {
+      h1 { font-size: 2em; }
+      .btn {
+        padding: 14px 24px;
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Prem-Sim</h1>
+    <p class="tagline">Explore football league simulations & analysis</p>
+  </header>
+
+  <div class="buttons">
+    <a href="Homepage.html" class="btn">View Website</a>
+    <a href="Prem.ipynb" class="btn">View Notebook</a>
+  </div>
+
+  <footer>
+    Created by Anshul Mahajan | Granth Naik
+    <a href="https://github.com/anshulm10/Prem-Sim">GitHub Repo</a>
+  </footer>
+</body>
+</html>
